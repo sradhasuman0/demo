@@ -1,4 +1,6 @@
-properties([pipelineTriggers([githubPush()])])
+properties([pipelineTriggers([pollSCM('* * * * *')])])
+
+
 pipeline{
     agent any
     tools{
