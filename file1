@@ -7,7 +7,7 @@ public class ques1 {
 	            sum += arr[i];
 	        }
 	        System.out.println("The sum of the array is: " + sum);
-	        System.out.println("The average of the array is: " + sum/arr.length);
+	        System.out.println("The average of the new array   is: " + sum/arr.length);
 	    }
 	}
 
