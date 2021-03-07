@@ -7,8 +7,8 @@ pipeline{
     stages{
         stage('run'){
             steps{
-                sh 'javac hello.java'
-                sh 'java hello'
+                sh 'javac file1.java'
+                sh 'java file1'
             }
         }
     }
